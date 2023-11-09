@@ -1,0 +1,13 @@
+html{
+    background-image: url(../img/bg.webp);
+}
+.karta{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
+.karta--hlava__img{
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100px;
+}
