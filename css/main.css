@@ -1,0 +1,30 @@
+body{
+    background-image: url(../img/bg.webp);
+    background-size: cover;
+}
+h2{
+    border-bottom:solid 3px black;
+}
+.karta{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 300px;
+    max-height: 600px;
+}
+.karta__hlava{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-responsive{
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    border:solid 3px wheat;
+}
+.karta_tělo{
+    padding: 5px;
+    align-items: center;
+}
