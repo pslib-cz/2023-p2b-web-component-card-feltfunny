@@ -1,6 +1,6 @@
 body{
     background-image: url(../img/bg.webp);
-    background-size: cover;
+    background-size: auto;
 }
 .content{
     display: flex;
@@ -24,6 +24,7 @@ h2{
     flex-direction: column;
 }
 .img-responsive{
+    background-size: cover;
     border-radius: 100%;
     width: 10em;
     height: 10em;
@@ -39,10 +40,13 @@ h2{
     box-shadow: 0 10px 10px grey;
     font-size: small;
     font-family: 'Roboto', sans-serif;
-    margin-top: -25%;
+    margin-top: -22%;
     padding: 10px;
-    min-width: 180px;
+    min-width: 250px;
     padding-top: 50px;
     background-color: white;
     align-items: center;
+}
+span{
+    font-size: 1.5em;
 }

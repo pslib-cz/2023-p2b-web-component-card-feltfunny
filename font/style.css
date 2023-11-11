@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?5x9o04');
-  src:  url('fonts/icomoon.eot?5x9o04#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?5x9o04') format('truetype'),
-    url('fonts/icomoon.woff?5x9o04') format('woff'),
-    url('fonts/icomoon.svg?5x9o04#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?c6lwk1');
+  src:  url('fonts/icomoon.eot?c6lwk1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?c6lwk1') format('truetype'),
+    url('fonts/icomoon.woff?c6lwk1') format('woff'),
+    url('fonts/icomoon.svg?c6lwk1#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,12 +25,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Telefon:before {
+.icon---:before {
   content: "\e942";
 }
-.icon-Pozice:before {
+.icon----:before {
   content: "\e944";
 }
 .icon-Email:before {
   content: "\e945";
+}
+.icon-Telefon:before {
+  content: "\e958";
+  color: brown;
+}
+.icon-Pozice:before {
+  content: "\e976";
 }
