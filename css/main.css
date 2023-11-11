@@ -2,29 +2,47 @@ body{
     background-image: url(../img/bg.webp);
     background-size: cover;
 }
+.content{
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+}
 h2{
-    border-bottom:solid 3px black;
+    border-bottom:solid 1px black;
 }
 .karta{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+    display: inline-block;
     max-width: 300px;
-    max-height: 600px;
+    max-height: 200px;
+    margin: 10px;
+    height: auto;
 }
 .karta__hlava{
+    margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .img-responsive{
-    border-radius: 50%;
+    border-radius: 100%;
     width: 10em;
     height: 10em;
     overflow: hidden;
-    border:solid 3px wheat;
+    border:solid 3px white;
+
+    box-shadow: 0 2px 5px grey;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
-.karta_tělo{
-    padding: 5px;
+.karta__tělo{
+    box-shadow: 0 10px 10px grey;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -25%;
+    padding: 10px;
+    min-width: 180px;
+    padding-top: 50px;
+    background-color: white;
     align-items: center;
 }
